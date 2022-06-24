@@ -56,3 +56,9 @@ tensorboard --logdir runs
 ```
 
 ![Demo](demo.png)
+
+## More info
+
+To learn more about how to formulate observation space and action space with `entity-gym`, see https://entity-gym.readthedocs.io/en/latest/quick-start-guide.html.
+
+For more advanced training examples with more complex games, see https://github.com/entity-neural-network/enn-zoo
