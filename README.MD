@@ -4,32 +4,7 @@ This is a demo of **"entity-oriented" deep reinforcement learning** (name is ins
 
 Feeling frustrated about not being able to describe your game's observation and action space  using `gym.spaces.Discrete` or `gym.spaces.Discrete` for RL libraries?  Entity-oriented RL comes to the rescue - it gives a much more intuitive observation and action space API to game practioners. Specifically, Entity-oriented RL allows game practioners to describe the entities in the game using JSON-like syntax such as follows:
 
-```
-def obs_space(cls) -> ObsSpace:
-    return ObsSpace(
-        entities={
-            "Spaceship": Entity(
-                ["x_pos", "y_pos", "x_velocity", "y_velocity", "step"]
-            ),
-        }
-    )
-
-def action_space(cls) -> Dict[str, ActionSpace]:
-    return {
-        "horizontal_thruster": CategoricalActionSpace(
-            [
-                "100% right",
-                "10% right",
-                "hold",
-                "10% left",
-                "100% left",
-            ],
-        ),
-        "vertical_thruster": CategoricalActionSpace(
-            ["100% up", "10% up", "hold", "10% down", "100% down"],
-        ),
-    }
-```
+https://github.com/vwxyzjn/entity-ppo-demo/blob/f8809e172e141880c84007b6e809c3e93b714118/main.py#L40-L63
 
 The `main.py` contains an end-to-end example. Please follow the steps below to get started.
 
