@@ -4,7 +4,7 @@ This is a demo of **"entity-oriented" deep reinforcement learning** (name is ins
 
 Feeling frustrated about not being able to describe your game's observation and action space  using `gym.spaces.Discrete` or `gym.spaces.Discrete` for RL libraries?  Entity-oriented RL comes to the rescue - it gives a much more intuitive observation and action space API to game practitioners. Specifically, Entity-oriented RL allows game practitioners to describe the entities in the game using JSON-like syntax such as follows:
 
-https://github.com/vwxyzjn/entity-ppo-demo/blob/f8809e172e141880c84007b6e809c3e93b714118/main.py#L40-L63
+https://github.com/vwxyzjn/entity-ppo-demo/blob/25d7f6e0daeb368337cb18df46d158c497934166/mine_sweeper_demo.py#L87-L116
 
 The `mine_sweeper_demo.py` contains an end-to-end example. Please follow the steps below to get started.
 
