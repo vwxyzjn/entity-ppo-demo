@@ -8,7 +8,11 @@ https://github.com/vwxyzjn/entity-ppo-demo/blob/f8809e172e141880c84007b6e809c3e9
 
 The `main.py` contains an end-to-end example. Please follow the steps below to get started.
 
-## Setup
+## Colab
+
+To help get started, we have prepared a colab notebook here - https://colab.research.google.com/drive/1WM23R9TA-C6rmDTFAy4hbnB87C1hcmM2?usp=sharing#scrollTo=HGzNOrnSiaHF
+
+## Local Setup
 
 ```bash
 poetry install
